@@ -49,4 +49,11 @@ try {
 ```
 
 
-More sophisticated implementations can easily be created.
+## Extending the implementation
+
+Simply evaluate the [`event-loop.js`](https://github.com/Nikku/nashorn-async/blob/master/src/main/resources/scripts/support/event-loop.js) script that adds optional async support in your script prior to evaluating the target script inside a `exec(function() { ...actual script ...})` block. See [ScriptRunner](https://github.com/Nikku/nashorn-async/blob/master/src/main/java/de/nixis/scripting/ScriptRunner.java) for details.
+
+
+## LICENSE
+
+MIT
