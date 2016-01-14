@@ -75,6 +75,13 @@ try {
 Simply evaluate the [`event-loop.js`](https://github.com/nikku/nashorn-async/blob/master/src/main/resources/js/event-loop.js) script that adds optional async support in your script prior to evaluating the target script inside a `exec(function() { ...actual script... })` block. See [ScriptRunner](https://github.com/nikku/nashorn-async/blob/master/src/main/java/de/nixis/scripting/ScriptRunner.java) for details.
 
 
+## Compatible Libraries
+
+Using this library the following projects have been reported to work with Nashorn:
+
+* [pdfmake](http://pdfmake.org)
+
+
 ## LICENSE
 
 MIT
