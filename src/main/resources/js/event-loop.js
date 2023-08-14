@@ -104,7 +104,7 @@
    * @param {Object} task timeout handle
    */
   function clearTimeout(task) {
-    if (task.cancel()) {
+    if (task && task.cancel()) {
       phaser.arriveAndDeregister();
     }
   }
@@ -142,7 +142,7 @@
    * @param {Object} interval handle
    */
   function clearInterval(task) {
-    if (task.cancel()) {
+    if (task && task.cancel()) {
       phaser.arriveAndDeregister();
     }
   }
