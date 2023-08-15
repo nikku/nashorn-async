@@ -1,6 +1,6 @@
 # nashorn-async
 
-[![Build Status](https://travis-ci.com/nikku/nashorn-async.svg?branch=master)](https://travis-ci.com/nikku/nashorn-async)
+[![CI](https://github.com/nikku/nashorn-async/actions/workflows/CI.yml/badge.svg)](https://github.com/nikku/nashorn-async/actions/workflows/CI.yml)
 
 Asynchronous scripting support for [Nashorn](http://www.oracle.com/technetwork/articles/java/jf14-nashorn-2126515.html).
 
