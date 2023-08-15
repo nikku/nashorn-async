@@ -17,7 +17,7 @@ public class AsyncTest {
   public void async() throws Exception {
     Object result = runScript("async.js");
 
-    assertThat(result).isEqualTo(3l);
+    assertThat(result).isEqualTo(3.0);
   }
 
   @Test

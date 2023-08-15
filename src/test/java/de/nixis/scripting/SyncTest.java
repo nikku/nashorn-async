@@ -16,7 +16,7 @@ public class SyncTest {
   public void testResult() throws Exception {
     Object result = runScript("sync.js");
 
-    assertThat(result).isEqualTo(3l);
+    assertThat(result).isEqualTo(3.0);
   }
 
   @Test
