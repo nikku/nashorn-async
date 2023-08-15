@@ -1,7 +1,7 @@
 function plus(a, b, done) {
   
   setTimeout(function() {
-    done(null, "3");
+    done(null, a + b);
   }, 100);
 }
 
